@@ -1,4 +1,5 @@
 class CreateUserTable < ActiveRecord::Migration
-  def change 
+  def change
+    
   end
 end
