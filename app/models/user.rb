@@ -1,3 +1,2 @@
-class User
-  attr_accessor :name, :password, :balance
+class User < ActiveRecord::Base
 end
