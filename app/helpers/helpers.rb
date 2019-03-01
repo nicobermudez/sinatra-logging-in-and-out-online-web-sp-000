@@ -3,7 +3,7 @@ class Helpers
     User.find_by(hash[:user_id])
   end
 
-  def is_logged_in?(hash)
+  def is_logged_in?(session)
     ha
   end
 end
