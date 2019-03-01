@@ -13,7 +13,7 @@ class ApplicationController < Sinatra::Base
   post '/login' do
     @user = User.find_by(params[:username])
     if @user && @user.password == params[:password]
-      sessoin[:user_id]
+      sessoin[:user_id] = @user.id
   end
 
   get '/account' do
